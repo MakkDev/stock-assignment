@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import '../StockTracker.css';
-import stocks from '../stocksInfo'
+import stocks from '../api/stocksInfo'
 
 export default function StockTracker() {
     const [stocksInfo, setStocksInfo] = useState([])
